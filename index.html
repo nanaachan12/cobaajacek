@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Happy Anniversary &#9829;</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="animate__animated animate__fadeInDown">
+        Happy 8th Month Anniversary ❤️
+      </h1>
+      <p class="message animate__animated animate__fadeIn animate__delay-1s">
+        Every second with you is an invaluable gift. Love you! 💑
+      </p>
+
+      <div
+        class="slideshow-container animate__animated animate__zoomIn animate__delay-2s"
+      >
+        <div class="mySlides fade">
+          <img src="img/1.png" alt="Pict 1" />
+          <div class="caption">27 Februari 2024</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/2.png" alt="Pict 2" />
+          <div class="caption">11 Mei 2024</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/3.png" alt="Pict 3" />
+          <div class="caption">3 Agustus 2024</div>
+        </div>
+
+        <button class="prev" onclick="plusSlides(-1)">❮</button>
+        <button class="next" onclick="plusSlides(1)">❯</button>
+
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+
+      <button
+        id="celebrateButton"
+        class="celebrate-button animate__animated animate__bounceIn animate__delay-3s"
+      >
+        🎉 Press Here! 🎉
+      </button>
+    </div>
+
+    <div id="confetti"></div>
+    <div id="balloons"></div>
+    <div id="hearts"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
